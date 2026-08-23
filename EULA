@@ -37,8 +37,7 @@
        或软件内的「开源许可」页面。
 
    1.5 "AI 功能"指本软件内置的基于大语言模型生成对话文本
-       的功能。AI 功能提供两种运行模式：本地推理模式与
-       云端 API 模式（详见第 5 条）。
+       的功能。AI 功能在您的本地设备上进行推理（详见第 5 条）。
 
 2. 许可授予
 
@@ -147,40 +146,21 @@
 5. AI 功能
 
    5.1 模式说明
-       AI 功能提供两种运行模式：
+       AI 功能使用本地量化大语言模型进行推理，AI 生成完全在
+       您的本地设备上运行，不向任何外部服务器发送数据。您知悉
+       并同意：本地推理会消耗设备计算资源（CPU/GPU 及内存），
+       生成质量取决于本地模型能力。
 
-        (a) 本地推理模式：本软件内置本地量化大语言模型，
-            AI 生成完全在您的本地设备上运行，不向任何外部服务器
-            发送数据。启动该模式即表示您知悉并同意：本地推理
-            会消耗设备计算资源（CPU/GPU 及内存），生成质量
-            取决于本地模型能力。
-
-        (b) 云端 API 模式：您可自行填入第三方 API 服务商
-            的密钥与接口地址，本软件通过 HTTPS 直连该服务商。
-            选择此模式即表示您知悉并同意：
-            - 您与第三方 API 服务商之间建立直接的数据传输关系，
-              开发者不中转、不代理、不缓存任何请求；
-            - 您的 AI 对话提示词（包括角色人设、宠物状态、
-              玩家昵称等自定义信息）将发送至您指定的第三方
-              服务商，受该服务商的隐私政策与使用条款约束；
-            - 您同意将前述数据转移至该第三方服务商运营所在的
-              任何地区；
-            - 您自行承担第三方 API 可能产生的全部费用；
-            - 您自行负责保管 API 密钥，因密钥泄露导致的
-              损失由您自行承担。
-
-   5.2 双重模式声明（Steam AI Disclosure 合规）
-       本软件同时包含"预生成内容 AI"（本地模型）和
-       "实时生成内容 AI"（云端 API）。无论选择哪种模式，
-       本软件均对输出内容进行敏感词过滤，并提供人设提示词
-        编辑功能，让您控制 AI 生成的方向。开发者承诺在
-        Steam 商店页中以 AI Disclosure 形式如实披露上述信息。
+   5.2 Steam AI Disclosure 合规
+       本软件包含"预生成内容 AI"（本地模型）。本软件对输出
+       内容进行敏感词过滤，并提供人设提示词编辑功能，让您
+       控制 AI 生成的方向。开发者承诺在 Steam 商店页中以
+       AI Disclosure 形式如实披露上述信息。
 
    5.3 内容过滤
-       无论选择哪种模式，AI 生成输出均经过内置的敏感内容
-       过滤（包括但不限于中国法规要求的违禁词过滤及
-       英语冒犯性内容过滤）。过滤可能影响生成结果，
-       您对此不持异议。
+       AI 生成输出均经过内置的敏感内容过滤（包括但不限于
+       中国法规要求的违禁词过滤及英语冒犯性内容过滤）。
+       过滤可能影响生成结果，您对此不持异议。
 
     5.4 不保证与 AI 警告
         开发者不对 AI 生成内容的准确性、安全性、合法性或
@@ -211,30 +191,20 @@
     您在本软件中的数据如何处理，详见随附的《隐私政策》。
     以下为要点摘要。
 
-    7.1 默认情况
-        本软件在默认配置（本地模式）下，不在本地设备之外
-        收集、存储或传输任何个人数据。存档数据默认存储在
-        本地（user:// 目录）。当您在 Steam 平台运行本软件并
-        启用 Steam 云同步时，游戏存档将经由 Steam 云在您本人的
-        设备之间同步，用于保留桌宠对您的记忆（详见《隐私政策》
-        第 2(d) 条）。本软件不包含分析、追踪或遥测功能。
+7.1 默认情况
+        本软件不在本地设备之外收集、存储或传输任何个人数据。
+        存档数据默认存储在本地（user:// 目录）。当您在 Steam
+        平台运行本软件并启用 Steam 云同步时，游戏存档将经由
+        Steam 云在您本人的设备之间同步，用于保留桌宠对您的记忆
+        （详见《隐私政策》第 2(c) 条）。本软件不包含分析、
+        追踪或遥测功能。
 
-   7.2 云端 API 例外
-       当您主动选择云端 API 模式并填入第三方服务商信息后，
-       AI 对话提示词文本将离开您的设备，传输至您指定的
-       第三方 API 地址。开发者不控制、不负责第三方如何处理
-       这些数据。建议您在使用云端模式前阅读所选服务商的
-        隐私政策。本软件本身不存储或上传您的 API 密钥至
-        任何开发者控制的服务器（密钥以加扰而非加密的形式
-        仅存于本地）。
-
-    7.3 联网说明
-        本软件的核心功能无需联网。云端 API 模式需要联网；
-        Steam 云存档同步同样需要联网，且仅在您在 Steam 平台
-        启用云同步时发生。本软件不内置更新检查功能，软件更新
-        由 Steam 平台负责推送。默认本地模式下本软件不收集个人
-        数据；云端 AI 模式与反馈表单（由第三方工具 Tally 提供）
-        涉及的数据传输，详见《隐私政策》第 3、4 条。
+    7.2 联网说明
+        本软件的核心功能无需联网。Steam 云存档同步需要联网，
+        且仅在您在 Steam 平台启用云同步时发生。本软件不内置
+        更新检查功能，软件更新由 Steam 平台负责推送。反馈表单
+        （由第三方工具 Tally 提供）涉及的数据传输，详见
+        《隐私政策》第 3 条。
 
 8. 更新与变更
 
@@ -346,8 +316,7 @@ Minors should read this agreement together with their legal guardian.
 
    1.5 "AI Features" means the built-in features of the Software that
        generate conversation text based on large language models. The
-       AI Features provide two operating modes: a local inference mode
-       and a cloud API mode (see Section 5).
+       AI Features run inference on your local device (see Section 5).
 
 2. Grant of License
 
@@ -493,52 +462,27 @@ Minors should read this agreement together with their legal guardian.
 5. AI Features
 
    5.1 Description of Modes
-       The AI Features provide two operating modes:
+       The AI Features run using a built-in locally quantized large
+       language model. AI generation runs entirely on your local device
+       and does not send data to any external server. You acknowledge
+       and agree that local inference consumes device computing
+       resources (CPU/GPU and memory) and that generation quality
+       depends on the capabilities of the local model.
 
-       (a) Local Inference Mode: The Software includes a built-in
-           locally quantized large language model. AI generation runs
-           entirely on your local device and does not send data to any
-           external server. By enabling this mode, you acknowledge and
-           agree that local inference consumes device computing
-           resources (CPU/GPU and memory) and that generation quality
-           depends on the capabilities of the local model.
-
-       (b) Cloud API Mode: You may fill in the API key and endpoint of
-           a third-party API provider yourself. The Software connects
-           directly to that provider over HTTPS. By choosing this mode,
-           you acknowledge and agree that:
-           - a direct data transmission relationship is established
-             between you and the third-party API provider, and the
-             Developer does not relay, proxy, or cache any requests;
-           - your AI conversation prompts (including custom information
-             such as character personas, pet status, and player
-             nickname) will be sent to the third-party provider you
-             designate and will be subject to that provider's privacy
-             policy and terms of use;
-           - you consent to the transfer of such data to any region
-             where the third-party provider operates;
-           - you bear all fees that may be incurred by the third-party
-             API;
-           - you are responsible for safeguarding your API key, and you
-             bear any losses caused by the disclosure of the key.
-
-   5.2 Dual-Mode Disclosure (Steam AI Disclosure Compliance)
-       The Software contains both "pre-generated content AI" (local
-       model) and "real-time generated content AI" (cloud API).
-       Regardless of which mode is chosen, the Software applies
-       sensitive-content filtering to the generated output and provides
-       persona prompt editing features that let you control the
-       direction of AI generation. The Developer undertakes to disclose
-       the above information truthfully in the form of an AI Disclosure
-       on the Steam store page.
+   5.2 Steam AI Disclosure Compliance
+       The Software contains "pre-generated content AI" (local model).
+       The Software applies sensitive-content filtering to the generated
+       output and provides persona prompt editing features that let you
+       control the direction of AI generation. The Developer undertakes
+       to disclose the above information truthfully in the form of an AI
+       Disclosure on the Steam store page.
 
    5.3 Content Filtering
-       Regardless of which mode is chosen, AI-generated output is
-       subject to built-in sensitive-content filtering (including but
-       not limited to filtering of banned words required by the
-       regulations of the People's Republic of China and filtering of
-       offensive English content). Filtering may affect the generated
-       results, and you have no objection to this.
+       AI-generated output is subject to built-in sensitive-content
+       filtering (including but not limited to filtering of banned
+       words required by the regulations of the People's Republic of
+       China and filtering of offensive English content). Filtering may
+       affect the generated results, and you have no objection to this.
 
    5.4 No Warranty and AI Warning
        The Developer makes no warranty as to the accuracy, safety,
@@ -575,39 +519,24 @@ Minors should read this agreement together with their legal guardian.
    points.
 
    7.1 By Default
-       Under the default configuration (local mode), the Software does
-       not collect, store, or transmit any personal data outside your
-       local device. Save data is stored locally by default (the
-       user:// directory). When you run the Software on the Steam
-       platform and enable Steam Cloud synchronization, your game save
-       will be synchronized between your own devices via Steam Cloud,
-       which is used to preserve the desktop pet's memories of you
-       (see Section 2(d) of the Privacy Policy). The Software does not
-       include analytics, tracking, or telemetry features.
+       The Software does not collect, store, or transmit any personal
+       data outside your local device. Save data is stored locally by
+       default (the user:// directory). When you run the Software on the
+       Steam platform and enable Steam Cloud synchronization, your game
+       save will be synchronized between your own devices via Steam
+       Cloud, which is used to preserve the desktop pet's memories of
+       you (see Section 2(c) of the Privacy Policy). The Software does
+       not include analytics, tracking, or telemetry features.
 
-   7.2 Cloud API Exception
-       When you actively choose Cloud API mode and fill in third-party
-       provider information, the text of your AI conversation prompts
-       will leave your device and be transmitted to the third-party API
-       endpoint you designate. The Developer does not control or
-       assume responsibility for how third parties handle such data.
-       You are advised to read the privacy policy of the provider you
-       choose before using cloud mode. The Software itself does not
-       store or upload your API key to any server controlled by the
-       Developer (the key is stored locally only, in scrambled rather
-       than encrypted form).
-
-   7.3 Networking Notes
+   7.2 Networking Notes
        The core features of the Software do not require an internet
-       connection. Cloud API mode requires an internet connection;
-       Steam Cloud save synchronization also requires an internet
+       connection. Steam Cloud save synchronization requires an internet
        connection and occurs only when you enable cloud synchronization
        on the Steam platform. The Software does not include a built-in
        update checker; software updates are delivered by the Steam
-       platform. Under the default local mode, the Software does not
-       collect personal data; data transmissions related to Cloud AI
-       mode and the feedback form (provided by the third-party tool
-       Tally) are described in Sections 3 and 4 of the Privacy Policy.
+       platform. Data transmissions related to the feedback form
+       (provided by the third-party tool Tally) are described in
+       Section 3 of the Privacy Policy.
 
 8. Updates and Changes
 
