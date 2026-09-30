@@ -2,7 +2,7 @@
   桌面糯伴 Desktop Mochipal — 隐私政策
 ========================================
 
-版本 1.1 · 生效日期：2026 年 8 月 4 日
+版本 1.3 · 生效日期：2026 年 9 月 13 日
 
 本隐私政策是《最终用户许可协议》（以下简称"EULA"）的组成部分，
 说明本软件如何处理您的数据。凡涉及数据处理的事项，如本政策与
@@ -16,7 +16,7 @@ EULA 存在冲突，以本政策为准。
 
 2. 存储的数据
 
-    (a) 游戏存档（宠物、装扮、成就、设置等），存储于本地
+    (a) 游戏存档（宠物、装扮、设置等），存储于本地
         user:// 目录；
     (b) 用户生成内容（UGC，包括部件图片与自定义文案），存储于
         本地 user://ugc_custom/ 与 user://custom_talk/ 目录，
@@ -26,40 +26,55 @@ EULA 存在冲突，以本政策为准。
         生日等信息）将经由 Steam 云服务在您本人的设备之间同步，
         用于保留桌宠对您的记忆。同步数据存储于 Valve 提供的
         Steam 服务器，仅对您的 Steam 账号可见，开发者无法读取。
+        自定义部件与自定义对话文案（UGC）以及本地设置（如开机
+        自启、窗口缩放）不随云存档同步，仅保存在本机。
         您可在 Steam 客户端「设置 → 云」中随时关闭云同步；关闭
         后存档仅保留在本地，不再同步。
-    您可随时删除本地存档文件夹以清除上述数据。
+    您可随时删除本地存档文件夹以清除上述数据；如已启用 Steam 云同步，
+    云端副本需在 Steam 客户端中一并删除。
 
 3. 反馈表单
 
-    本软件设置页面的「游戏反馈」链接会打开由第三方工具 Tally
-    提供的在线表单（https://tally.so/r/gDXzPN）。您在该表单中
-    填写的任何内容（可能包括您的联系方式）将由 Tally 及其关联方
-    处理，不经过开发者服务器。建议您在提交前查看 Tally 的隐私政策。
+    本软件设置页面的反馈链接会打开由第三方工具 Tally 提供的
+    在线表单（https://tally.so/r/gDXzPN）。您在该表单中填写的
+    任何内容（可能包括您的联系方式）由 Tally 及其关联方直接收集
+    和处理，不经过开发者服务器，但开发者可通过 Tally 后台查看您
+    提交的内容。建议您在提交前查看 Tally 的隐私政策。
 
 4. 分析、追踪与遥测
 
     本软件不包含分析、追踪或遥测功能，不收集使用行为统计数据。
 
-5. 第三方服务
+5. 您的权利与数据保留
 
-    本软件可能包含第三方组件与外部链接。第三方组件清单及许可
-    信息见 THIRD_PARTY_LICENSES.txt。您选择接入的反馈表单服务商
-    的隐私实践不在开发者控制范围内。
+    本软件的数据默认仅存储于您的本地设备，您可随时通过文件系统
+    直接查阅、修改或删除。对于经 Steam 云同步的存档，您可在
+    Steam 客户端中查看或删除云端副本。您也可随时撤回同意（例如
+    关闭云同步或停止使用本软件）。
+    本软件不自行保留您的个人数据；数据保留期限取决于您的本地设备
+    及 Steam 平台的设置。如需行使上述权利或有相关疑问，可通过
+    第 9 条的联系方式与我们联系。
 
-6. 未成年人
+6. 第三方服务
+
+    本软件可能包含第三方组件与外部链接（如哔哩哔哩、Discord、
+    Tally 反馈表单）。第三方组件清单及许可信息见
+    THIRD_PARTY_LICENSES.txt。当您点击外部链接或使用第三方服务时，
+    相关数据处理适用该第三方的隐私政策，不在开发者控制范围内。
+
+7. 未成年人
 
     本软件面向已满 13 周岁的用户。未成年人使用本软件前应在法定
     监护人陪同下阅读并同意本政策及 EULA。
 
-7. 政策变更
+8. 政策变更
 
-    如本政策发生实质性变更，开发者将按照 EULA 第 8.2 条的方式
+    如本政策发生实质性变更，开发者将按照 EULA 第 7.2 条的方式
     通知您。
 
-8. 联系我们
+9. 联系我们
 
-    如有隐私相关问题，可通过 EULA 第 11 条的联系方式与我们联系。
+    如有隐私相关问题，可通过 EULA 第 10 条的联系方式与我们联系。
 
 ---
 © 2026 菠RO/PineapRO · All rights reserved.
@@ -69,7 +84,7 @@ EULA 存在冲突，以本政策为准。
    Desktop Mochipal — Privacy Policy
 ========================================
 
-Version 1.1 · Effective Date: August 4, 2026
+Version 1.3 · Effective Date: September 13, 2026
 
 This privacy policy is an integral part of the End User License
 Agreement ("EULA") and explains how the Software handles your data. In
@@ -85,8 +100,8 @@ data processing matters, this policy shall prevail.
 
 2. Data Stored
 
-   (a) Game save data (pets, customizations, achievements, settings,
-       etc.), stored locally in the user:// directory;
+   (a) Game save data (pets, customizations, settings, etc.), stored
+       locally in the user:// directory;
    (b) User-Generated Content (UGC, including decal images and custom
        text), stored in the local user://ugc_custom/ and
        user://custom_talk/ directories, and neither uploaded nor
@@ -98,53 +113,71 @@ data processing matters, this policy shall prevail.
        between your own devices via Steam Cloud services, which is used
        to preserve the desktop pet's memories of you. Synchronized data
        is stored on Valve's Steam servers, is visible only to your
-       Steam account, and cannot be read by the Developer. You may turn
-       off cloud synchronization at any time in the Steam client under
-       "Settings → Cloud"; once disabled, your save data remains local
-       only and is no longer synchronized.
+       Steam account, and cannot be read by the Developer. Custom parts
+       and custom talk texts (UGC), as well as local settings (such as
+       launch-at-startup and window scale), are not synchronized to
+       Steam Cloud and are stored only on your local machine. You may
+       turn off cloud synchronization at any time in the Steam client
+       under "Settings → Cloud"; once disabled, your save data remains
+       local only and is no longer synchronized.
    You may delete the local save folder at any time to clear the
-   above data.
+   above data; if Steam Cloud synchronization is enabled, the cloud
+   copy must also be deleted in the Steam client.
 
 3. Feedback Form
 
-   The "Game Feedback" link on the Software's settings page opens an
-   online form provided by the third-party tool Tally
+   The feedback link on the Software's settings page opens an online
+   form provided by the third-party tool Tally
    (https://tally.so/r/gDXzPN). Any content you enter in that form
-   (which may include your contact information) is processed by Tally
-   and its affiliates and does not pass through the Developer's
-   servers. We recommend reviewing Tally's privacy policy before
-   submitting.
+   (which may include your contact information) is collected and
+   processed directly by Tally and its affiliates and does not pass
+   through the Developer's servers, but the Developer may view the
+   content you submit through Tally's backend. We recommend reviewing
+   Tally's privacy policy before submitting.
 
 4. Analytics, Tracking, and Telemetry
 
    The Software does not include analytics, tracking, or telemetry
    features and does not collect usage statistics.
 
-5. Third-Party Services
+5. Your Rights and Data Retention
 
-   The Software may contain third-party components and external links.
-   The list of third-party components and their license information can
-   be found in THIRD_PARTY_LICENSES.txt. The privacy practices of the
-   feedback form provider you choose to connect to are outside the
-   Developer's control.
+   Because the Software stores data only on your local device by
+   default, you may access, modify, or delete this data directly
+   through your file system at any time. For saves synchronized via
+   Steam Cloud, you may view or delete the cloud copy in the Steam
+   client. You may also withdraw your consent at any time (for example,
+   by disabling cloud synchronization or discontinuing use of the
+   Software). The Software does not retain your personal data on its
+   own; the retention period depends on your local device and the Steam
+   platform settings. To exercise these rights or if you have related
+   questions, please contact us through the channels in Section 9.
 
-6. Minors
+6. Third-Party Services
+
+   The Software may contain third-party components and external links
+   (such as Bilibili, Discord, and the Tally feedback form). The list
+   of third-party components and their license information can be found
+   in THIRD_PARTY_LICENSES.txt. When you click an external link or use a
+   third-party service, the related data processing is governed by that
+   third party's privacy policy and is outside the Developer's control.
+
+7. Minors
 
    The Software is intended for users who are at least 13 years of age.
    Minors should read and agree to this policy and the EULA together
    with their legal guardian.
 
-7. Changes to This Policy
+8. Changes to This Policy
 
    If this policy undergoes material changes, the Developer will notify
-   you in the manner set forth in Section 8.2 of the EULA.
+   you in the manner set forth in Section 7.2 of the EULA.
 
-8. Contact Us
+9. Contact Us
 
    If you have any privacy-related questions, please contact us through
-   the channels set forth in Section 11 of the EULA.
+   the channels set forth in Section 10 of the EULA.
 
 ---
 © 2026 菠RO/PineapRO · All rights reserved.
 ========================================
-
