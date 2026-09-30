@@ -2,7 +2,7 @@
   桌面糯伴 Desktop Mochipal — 最终用户许可协议
 ========================================
 
-版本 1.7 · 生效日期：2026 年 8 月 5 日
+版本 1.9 · 生效日期：2026 年 9 月 13 日
 
 重要提示：
 本协议是您（以下简称"用户"或"您"）与开发者 菠RO/PineapRO
@@ -11,7 +11,7 @@
 本协议是对 Valve Steam 订户协议（Steam Subscriber Agreement，以下
 简称"SSA"）的补充。如本协议与 SSA 存在冲突，以 SSA 为准。
 
-请您仔细阅读本协议的全部条款，特别是加粗或下划线标注的条款。
+请您仔细阅读本协议的全部条款。
 您安装、复制或以其他方式使用本软件，即表示您已阅读、理解并
 同意受本协议约束。如果您不同意本协议的任何条款，请勿安装或
 使用本软件。
@@ -26,18 +26,15 @@
        升级版本，包括但不限于可执行文件、数据文件、资源文件、
        代码库及随附文档。
 
-    1.2 "用户生成内容"或"UGC"指您通过本软件的功能创建、
-        导入的全部内容，包括但不限于自定义对话文本、
-        自定义图片及贴图、角色装扮方案及其他自定义素材。
+   1.2 "用户生成内容"或"UGC"指您通过本软件的功能创建、
+       导入的全部内容，包括但不限于自定义对话文本、
+       自定义图片及贴图、角色装扮方案及其他自定义素材。
 
    1.3 "开发者"指 菠RO/PineapRO。
 
    1.4 "第三方组件"指本软件中包含的由第三方提供的开源或
        商业软件，其许可信息详见随附的 THIRD_PARTY_LICENSES.txt
        或软件内的「开源许可」页面。
-
-   1.5 "AI 功能"指本软件内置的基于大语言模型生成对话文本
-       的功能。AI 功能在您的本地设备上进行推理（详见第 5 条）。
 
 2. 许可授予
 
@@ -52,8 +49,8 @@
    2.3 您不得：
        (a) 对本软件进行反向工程、反编译、反汇编或试图获取
            源代码（适用法律明确允许的除外）；
-        (b) 复制、修改、出租、租赁、出借、销售、再分发本
-            软件或其任何部分（本协议另有明确允许的除外）；
+       (b) 复制、修改、出租、租赁、出借、销售、再分发本
+           软件或其任何部分（本协议另有明确允许的除外）；
        (c) 将本软件用于商业转售、游戏托管、云游戏服务或
            类似用途；
        (d) 移除或修改本软件中包含的任何版权、商标或其他
@@ -119,13 +116,16 @@
            提供必要信息。
 
     4.4 仅限本地使用
-        本软件当前版本不支持将 UGC 上传、分发或分享给其他
-        用户，您的 UGC 仅用于您本人的本地使用。如未来版本
-        提供分发或分享功能，开发者将另行修订本协议并通知您。
+        本软件不提供将 UGC 上传至开发者或第三方服务器、或
+        在软件内向其他用户分发、分享的功能。您可使用软件自
+        带的导出/导入功能对 UGC 进行个人备份与跨设备迁移，
+        该等文件仅限您本人使用；如您主动将文件提供给他人，
+        由此产生的后果由您自行承担。如未来版本提供软件内
+        分发或分享功能，开发者将另行修订本协议并通知您。
 
    4.5 侵权举报
        如果您认为其他用户的 UGC 侵犯了您的合法权益，请
-       通过第 11 条的联系方式向开发者提交书面通知，包括：
+       通过第 10 条的联系方式向开发者提交书面通知，包括：
        (a) 权利人身份证明及联系方式；
        (b) 被侵权作品的描述和定位信息；
        (c) 侵权情况的详细说明；
@@ -143,42 +143,7 @@
        您违反本协议的行为引起的任何索赔、损害、损失、
        责任、成本和费用（包括合理的律师费）。
 
-5. AI 功能
-
-   5.1 模式说明
-       AI 功能使用本地量化大语言模型进行推理，AI 生成完全在
-       您的本地设备上运行，不向任何外部服务器发送数据。您知悉
-       并同意：本地推理会消耗设备计算资源（CPU/GPU 及内存），
-       生成质量取决于本地模型能力。
-
-   5.2 Steam AI Disclosure 合规
-       本软件包含"预生成内容 AI"（本地模型）。本软件对输出
-       内容进行敏感词过滤，并提供人设提示词编辑功能，让您
-       控制 AI 生成的方向。开发者承诺在 Steam 商店页中以
-       AI Disclosure 形式如实披露上述信息。
-
-   5.3 内容过滤
-       AI 生成输出均经过内置的敏感内容过滤（包括但不限于
-       中国法规要求的违禁词过滤及英语冒犯性内容过滤）。
-       过滤可能影响生成结果，您对此不持异议。
-
-    5.4 不保证与 AI 警告
-        开发者不对 AI 生成内容的准确性、安全性、合法性或
-        适当性作任何保证。AI 生成内容不代表开发者观点。
-        AI 生成内容可能不准确、不适当或不可预测，您对此
-        知悉并接受。
-
-   5.5 禁止用途
-       您不得利用 AI 功能生成或传播第 4.2(c) 条所禁止的
-       任何内容。AI 功能的使用同样受本协议全部条款约束。
-       若您未满 18 周岁，应在法定监护人陪同下阅读并同意
-       本协议后使用 AI 互动功能。
-
-   5.6 AI 功能变更
-       开发者保留随时修改、更新或停止 AI 功能的权利，
-       恕不另行通知。
-
-6. 用户反馈
+5. 用户反馈
 
    您向开发者提交的任何反馈、建议、想法或改进（以下简称
    "反馈"），开发者有权在不承担任何义务或补偿的情况下
@@ -186,44 +151,45 @@
    授予开发者一项永久的、不可撤销的、全球性的、免版税的
    许可，允许开发者以任何方式使用您的反馈。
 
-7. 隐私与数据
+6. 隐私与数据
 
     您在本软件中的数据如何处理，详见随附的《隐私政策》。
     以下为要点摘要。
 
-7.1 默认情况
+   6.1 默认情况
         本软件不在本地设备之外收集、存储或传输任何个人数据。
         存档数据默认存储在本地（user:// 目录）。当您在 Steam
         平台运行本软件并启用 Steam 云同步时，游戏存档将经由
         Steam 云在您本人的设备之间同步，用于保留桌宠对您的记忆
-        （详见《隐私政策》第 2(c) 条）。本软件不包含分析、
-        追踪或遥测功能。
+        （详见《隐私政策》第 2(c) 条）。自定义部件与自定义对话
+        文案（UGC）仅保存在本机，不随云存档同步。本软件不包含
+        分析、追踪或遥测功能。
 
-    7.2 联网说明
+   6.2 联网说明
         本软件的核心功能无需联网。Steam 云存档同步需要联网，
         且仅在您在 Steam 平台启用云同步时发生。本软件不内置
         更新检查功能，软件更新由 Steam 平台负责推送。反馈表单
         （由第三方工具 Tally 提供）涉及的数据传输，详见
         《隐私政策》第 3 条。
 
-8. 更新与变更
+7. 更新与变更
 
-    8.1 开发者可能不时提供本软件的更新版本，软件更新由 Steam
-        平台负责推送。
-     8.2 开发者保留随时修改本协议的权利。修改后的协议将在
-         本软件内或 Steam 社区中心公布。对于实质性变更（包括
-         但不限于许可范围、责任限制、争议解决），开发者将通过
-         Steam 商店公告另行通知。您在修改后继续使用本软件即
-         视为接受修改后的协议。
+   7.1 开发者可能不时提供本软件的更新版本，软件更新由 Steam
+       平台负责推送。
+   7.2 开发者保留随时修改本协议的权利。修改后的协议将在
+       本软件内或 Steam 社区中心公布。对于实质性变更（包括
+       但不限于许可范围、责任限制、争议解决），开发者将通过
+       Steam 商店公告另行通知。您在修改后继续使用本软件即
+       视为接受修改后的协议。
 
-9. 免责声明
+8. 免责声明
 
    在适用法律允许的最大范围内，本软件按"现状"提供，
    不附带任何明示或暗示的保证，包括但不限于适销性、
    特定用途适用性、所有权和不侵权保证。开发者不保证
    本软件运行不会中断、无错误、及时或安全。
 
-10. 责任限制
+9. 责任限制
 
     在适用法律允许的最大范围内，在任何情况下，开发者及
     其关联方均不对因使用或无法使用本软件而产生的任何
@@ -232,38 +198,39 @@
     对您的累计赔偿责任总额不超过您为本软件实际支付的
     费用（如有）。
 
-11. 联系信息
+10. 联系信息
 
     如您有关于本协议的任何疑问，或需要提交侵权通知、
     投诉举报，可通过以下方式联系：
-    游戏内反馈：请使用设置页面的在线反馈表单提交
+    哔哩哔哩私信：https://space.bilibili.com/1053193810
+    设置页反馈：使用设置页面中的反馈链接（由第三方表单服务提供）
     Steam 客服：https://help.steampowered.com/
 
-12. 终止
+11. 终止
 
-   12.1 如果您违反本协议的任何条款，本协议及您的使用
+    11.1 如果您违反本协议的任何条款，本协议及您的使用
          许可将自动终止，无需另行通知。
-   12.2 终止后，您必须立即停止使用并销毁本软件的所有
+    11.2 终止后，您必须立即停止使用并销毁本软件的所有
          副本。
-   12.3 本协议中按其性质应在终止后继续有效的条款
-         （包括但不限于第 3、4.3、4.7、6、9、10、13.6 条）
+    11.3 本协议中按其性质应在终止后继续有效的条款
+         （包括但不限于第 3、4.3、4.7、5、8、9、12.6 条）
          在终止后继续有效。
 
-13. 其他
+12. 其他
 
-    13.1 准据法：本协议受中华人民共和国法律管辖。
-    13.2 争议解决：因本协议引起的争议，双方应友好协商
+    12.1 准据法：本协议受中华人民共和国法律管辖。
+    12.2 争议解决：因本协议引起的争议，双方应友好协商
           解决；协商不成的，提交开发者所在地有管辖权的
           人民法院诉讼解决。
-    13.3 不可抗力：因自然灾害、战争、政府行为、互联网
+    12.3 不可抗力：因自然灾害、战争、政府行为、互联网
           服务中断、第三方服务故障等超出合理控制范围的原因
           导致本协议无法履行的，受影响方不承担违约责任。
-    13.4 出口管制：您同意遵守中华人民共和国及您所在国家/
+    12.4 出口管制：您同意遵守中华人民共和国及您所在国家/
           地区的出口管制法律法规，不得将本软件或其任何部分
           用于、出口或再出口至受制裁国家/地区或受制裁实体。
-    13.5 可分割性：如本协议的任何条款被认定为无效或
+    12.5 可分割性：如本协议的任何条款被认定为无效或
           不可执行，其余条款继续完全有效。
-    13.6 完整协议：本协议构成您与开发者之间关于本软件的
+    12.6 完整协议：本协议构成您与开发者之间关于本软件的
           完整协议，取代此前所有口头或书面的沟通与约定。
 
 ---
@@ -274,7 +241,7 @@
    Desktop Mochipal — End User License Agreement
 ========================================
 
-Version 1.7 · Effective Date: August 5, 2026
+Version 1.9 · Effective Date: September 13, 2026
 
 IMPORTANT NOTICE:
 This agreement is a legal agreement between you (the "User" or "you")
@@ -284,11 +251,11 @@ through the Steam platform, and this agreement supplements the Valve
 Steam Subscriber Agreement ("SSA"). In the event of any conflict
 between this agreement and the SSA, the SSA shall prevail.
 
-Please read all of the terms of this agreement carefully, especially
-the terms in bold or underlined. By installing, copying, or otherwise
-using the Software, you acknowledge that you have read, understood,
-and agree to be bound by this agreement. If you do not agree to any of
-the terms of this agreement, do not install or use the Software.
+Please read all of the terms of this agreement carefully. By
+installing, copying, or otherwise using the Software, you acknowledge
+that you have read, understood, and agree to be bound by this
+agreement. If you do not agree to any of the terms of this agreement,
+do not install or use the Software.
 
 Minors should read this agreement together with their legal guardian.
 
@@ -313,10 +280,6 @@ Minors should read this agreement together with their legal guardian.
        Software. License information for such components can be found
        in the accompanying THIRD_PARTY_LICENSES.txt or the "Open
        Source Licenses" page within the Software.
-
-   1.5 "AI Features" means the built-in features of the Software that
-       generate conversation text based on large language models. The
-       AI Features run inference on your local device (see Section 5).
 
 2. Grant of License
 
@@ -399,16 +362,16 @@ Minors should read this agreement together with their legal guardian.
               undermines ethnic solidarity, and other unlawful
               politically sensitive content;
             - pornographic, obscene, or indecent content;
-           - content that is discriminatory, defamatory, insulting,
-             harassing, or bullying;
-           - content that infringes another person's intellectual
-             property or trade secrets;
-           - malware, viruses, worms, trojan horses, or other
-             destructive code;
-           - another person's personally identifiable information or
-             privacy (without their express consent);
-           - any content that violates applicable laws, regulations,
-             or public order and good customs.
+            - content that is discriminatory, defamatory, insulting,
+              harassing, or bullying;
+            - content that infringes another person's intellectual
+              property or trade secrets;
+            - malware, viruses, worms, trojan horses, or other
+              destructive code;
+            - another person's personally identifiable information or
+              privacy (without their express consent);
+            - any content that violates applicable laws, regulations,
+              or public order and good customs.
        (d) You agree to bear full responsibility for your UGC, and
            the Developer shall not be liable for any liability arising
            from your UGC.
@@ -429,16 +392,21 @@ Minors should read this agreement together with their legal guardian.
            by applicable law.
 
    4.4 Local Use Only
-       The current version of the Software does not support uploading,
-       distributing, or sharing UGC with other users. Your UGC is used
-       solely for your own local use. If future versions provide
-       distribution or sharing features, the Developer will amend this
-       agreement accordingly and notify you.
+       The Software does not provide features to upload UGC to the
+       Developer or any third-party server, or to distribute or share
+       UGC with other users within the Software. You may use the
+       Software's built-in export/import features to back up your UGC
+       or migrate it between your own devices; such files are for your
+       personal use only. If you voluntarily provide such files to
+       others, you are solely responsible for the consequences. If
+       future versions provide in-app distribution or sharing features,
+       the Developer will amend this agreement accordingly and notify
+       you.
 
    4.5 Reports of Infringement
        If you believe that another user's UGC infringes your legal
        rights, please submit a written notice to the Developer through
-       the contact information in Section 11, including:
+       the contact information in Section 10, including:
        (a) proof of the rights holder's identity and contact
            information;
        (b) a description and locating information for the infringed
@@ -459,51 +427,7 @@ Minors should read this agreement together with their legal guardian.
        liabilities, costs, and expenses (including reasonable attorney
        fees) arising out of your UGC or your breach of this agreement.
 
-5. AI Features
-
-   5.1 Description of Modes
-       The AI Features run using a built-in locally quantized large
-       language model. AI generation runs entirely on your local device
-       and does not send data to any external server. You acknowledge
-       and agree that local inference consumes device computing
-       resources (CPU/GPU and memory) and that generation quality
-       depends on the capabilities of the local model.
-
-   5.2 Steam AI Disclosure Compliance
-       The Software contains "pre-generated content AI" (local model).
-       The Software applies sensitive-content filtering to the generated
-       output and provides persona prompt editing features that let you
-       control the direction of AI generation. The Developer undertakes
-       to disclose the above information truthfully in the form of an AI
-       Disclosure on the Steam store page.
-
-   5.3 Content Filtering
-       AI-generated output is subject to built-in sensitive-content
-       filtering (including but not limited to filtering of banned
-       words required by the regulations of the People's Republic of
-       China and filtering of offensive English content). Filtering may
-       affect the generated results, and you have no objection to this.
-
-   5.4 No Warranty and AI Warning
-       The Developer makes no warranty as to the accuracy, safety,
-       legality, or appropriateness of AI-generated content.
-       AI-generated content does not represent the views of the
-       Developer. AI-generated content may be inaccurate, inappropriate,
-       or unpredictable, and you acknowledge and accept this.
-
-   5.5 Prohibited Uses
-       You may not use the AI Features to generate or disseminate any
-       content prohibited under Section 4.2(c). Use of the AI Features
-       is also subject to all of the terms of this agreement. If you
-       are under 18 years of age, you should read and agree to this
-       agreement together with your legal guardian before using the AI
-       interaction features.
-
-   5.6 Changes to AI Features
-       The Developer reserves the right to modify, update, or
-       discontinue the AI Features at any time without notice.
-
-6. User Feedback
+5. User Feedback
 
    Any feedback, suggestions, ideas, or improvements that you submit
    to the Developer ("Feedback") may be freely used by the Developer
@@ -512,23 +436,25 @@ Minors should read this agreement together with their legal guardian.
    the Developer a perpetual, irrevocable, worldwide, royalty-free
    license to use your Feedback in any manner.
 
-7. Privacy and Data
+6. Privacy and Data
 
    See the accompanying Privacy Policy for details on how your data is
    handled in the Software. The following is a summary of the key
    points.
 
-   7.1 By Default
+   6.1 By Default
        The Software does not collect, store, or transmit any personal
        data outside your local device. Save data is stored locally by
        default (the user:// directory). When you run the Software on the
        Steam platform and enable Steam Cloud synchronization, your game
        save will be synchronized between your own devices via Steam
        Cloud, which is used to preserve the desktop pet's memories of
-       you (see Section 2(c) of the Privacy Policy). The Software does
-       not include analytics, tracking, or telemetry features.
+       you (see Section 2(c) of the Privacy Policy). Custom parts and
+       custom talk texts (UGC) are stored only on your local machine and
+       are not synchronized to Steam Cloud. The Software does not
+       include analytics, tracking, or telemetry features.
 
-   7.2 Networking Notes
+   6.2 Networking Notes
        The core features of the Software do not require an internet
        connection. Steam Cloud save synchronization requires an internet
        connection and occurs only when you enable cloud synchronization
@@ -538,12 +464,12 @@ Minors should read this agreement together with their legal guardian.
        (provided by the third-party tool Tally) are described in
        Section 3 of the Privacy Policy.
 
-8. Updates and Changes
+7. Updates and Changes
 
-   8.1 The Developer may from time to time provide updated versions of
+   7.1 The Developer may from time to time provide updated versions of
        the Software. Software updates are delivered by the Steam
        platform.
-   8.2 The Developer reserves the right to modify this agreement at any
+   7.2 The Developer reserves the right to modify this agreement at any
        time. The modified agreement will be published within the
        Software or on the Steam community hub. For material changes
        (including but not limited to scope of license, limitation of
@@ -552,7 +478,7 @@ Minors should read this agreement together with their legal guardian.
        continued use of the Software after the modification will be
        deemed acceptance of the modified agreement.
 
-9. Disclaimer of Warranties
+8. Disclaimer of Warranties
 
    To the maximum extent permitted by applicable law, the Software is
    provided "as is" without warranties of any kind, express or implied,
@@ -561,7 +487,7 @@ Minors should read this agreement together with their legal guardian.
    non-infringement. The Developer does not warrant that the Software
    will operate without interruption, be error-free, timely, or secure.
 
-10. Limitation of Liability
+9. Limitation of Liability
 
     To the maximum extent permitted by applicable law, in no event
     shall the Developer or its affiliates be liable for any indirect,
@@ -572,49 +498,50 @@ Minors should read this agreement together with their legal guardian.
     shall not exceed the amount you actually paid for the Software
     (if any).
 
-11. Contact Information
+10. Contact Information
 
     If you have any questions about this agreement, or need to submit
     an infringement notice or complaint, you may contact us through
     the following channels:
-    In-game feedback: use the online feedback form on the settings
-    page
+    Bilibili private message: https://space.bilibili.com/1053193810
+    Settings feedback: use the feedback link on the settings page
+    (provided by a third-party form service)
     Steam Support: https://help.steampowered.com/
 
-12. Termination
+11. Termination
 
-    12.1 If you violate any of the terms of this agreement, this
+    11.1 If you violate any of the terms of this agreement, this
          agreement and your license to use the Software will terminate
          automatically without notice.
-    12.2 Upon termination, you must immediately stop using the Software
+    11.2 Upon termination, you must immediately stop using the Software
          and destroy all copies of it.
-    12.3 Any provisions of this agreement that by their nature should
+    11.3 Any provisions of this agreement that by their nature should
          survive termination (including but not limited to Sections 3,
-         4.3, 4.7, 6, 9, 10, and 13.6) shall survive termination.
+         4.3, 4.7, 5, 8, 9, and 12.6) shall survive termination.
 
-13. Miscellaneous
+12. Miscellaneous
 
-    13.1 Governing Law: This agreement is governed by the laws of the
+    12.1 Governing Law: This agreement is governed by the laws of the
          People's Republic of China.
-    13.2 Dispute Resolution: Any dispute arising from this agreement
+    12.2 Dispute Resolution: Any dispute arising from this agreement
          shall be resolved through friendly negotiation between the
          parties; if negotiation fails, the dispute shall be submitted
          to the competent people's court at the Developer's location
          for resolution.
-    13.3 Force Majeure: If this agreement cannot be performed due to
+    12.3 Force Majeure: If this agreement cannot be performed due to
          natural disasters, war, government actions, internet service
          interruptions, failures of third-party services, or other
          causes beyond reasonable control, the affected party shall
          not be liable for breach.
-    13.4 Export Control: You agree to comply with the export control
+    12.4 Export Control: You agree to comply with the export control
          laws and regulations of the People's Republic of China and
          your country/region and shall not use, export, or re-export
          the Software or any part of it to sanctioned countries/regions
          or sanctioned entities.
-    13.5 Severability: If any provision of this agreement is held to be
+    12.5 Severability: If any provision of this agreement is held to be
          invalid or unenforceable, the remaining provisions shall
          continue in full force and effect.
-    13.6 Entire Agreement: This agreement constitutes the entire
+    12.6 Entire Agreement: This agreement constitutes the entire
          agreement between you and the Developer regarding the Software
          and supersedes all prior oral or written communications and
          agreements.
@@ -622,4 +549,3 @@ Minors should read this agreement together with their legal guardian.
 ---
 © 2026 菠RO/PineapRO · All rights reserved.
 ========================================
-
